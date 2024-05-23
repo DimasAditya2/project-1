@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Sepatu",
+      "description": "Alas Kaki"
+    },
+    {
+      "name": "Baju",
+      "description": "Penutup Badan Bagian Atas"
+    },
+    {
+      "name": "Celana",
+      "description": "Penutup Badan Bagian Bawah"
+    },
+    {
+      "name": "Elektronik",
+      "description": "Alat Bantu Keseharian"
+    },
+    {
+      "name": "Perkakas",
+      "description": "Alat Bantu Tukang"
+    }
+  ]
+  
