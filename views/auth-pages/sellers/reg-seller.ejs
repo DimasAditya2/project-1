@@ -1,0 +1,26 @@
+<%- include('../../partial/_head', {title: "Register User"}) %>
+
+<div class="container flex-form">
+    <h1 class="text-center">Register Seller</h1>
+    <form action="/accounts/users/register" method="post">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label" name="email">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label" name="password">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-2 account">
+            <p>Have Account?
+                 <a href="/accounts/sellers/login">Login</a>
+            </p>
+            <a href="/accounts/customers/login">are you a Customer? Login</a>
+
+        </div>
+        <button type="submit" class="btn btn-primary enter mt-5">Submit</button>
+      </form>
+</div>
+
+
+<%- include('../../partial/_foot') %>
