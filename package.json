@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/DimasAditya2/project-1#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
+    "express-session": "^1.18.0",
     "pg": "^8.11.5",
     "sequelize": "^6.37.3"
   },
